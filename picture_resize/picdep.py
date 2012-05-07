@@ -25,7 +25,6 @@
 __author__ = 'Vishwanath'
 __version__ = '0.1'
 
-import Image
 from scipy import *
 from scipy.ndimage import *
 import sys
