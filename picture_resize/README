@@ -1,0 +1,12 @@
+Author:			Vishwanath
+Dependencies:	scipy
+
+This module will help reduce the size of images without distorting the pixel aspect ratio.
+
+Usage:
+$ python picdep.py image.jpg heightxwidth switch
+
+The switch values are: STR, SYM or END
+STR: The resized image will be the top subset or the left subset of the original image
+SYM: The resized image will be the central subset
+END: The resized image will be the bottom or the right subset
