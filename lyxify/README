@@ -1,0 +1,10 @@
+Author:			Vishwanath (Idea and first implementation by praveen)
+Dependencies:	None
+
+In case you code a lot and you need it to be documented in lyx, withing the scrap, this module will prove to be very userful.
+
+Usage:
+$ python c2lyx.py input.c
+
+The output will be input.lyx
+Note that the input can be any file format of programming languages
