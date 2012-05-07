@@ -1,0 +1,15 @@
+Canny edge detection using python and scipy
+Author:			Vishwanath
+Dependencies:	numpy, scipy, Python Image Library (optional)
+
+This module will implement canny edge detection.
+
+Usage:
+>>> from Canny import Canny
+>>> canny = Canny('test.jpg', sigma = 0.85)
+>>> imout = canny.grad
+>>> imout.show() # Use this only if Python Image Library is installed
+
+Note:
+1. The code is not very fast
+2. Improvements are welcome
