@@ -6,7 +6,7 @@ This module will implement canny edge detection.
 
 Usage:
 >>> from Canny import Canny
->>> canny = Canny('test.jpg', sigma = 0.85)
+>>> canny = Canny('bike.jpg', sigma = 0.85)
 >>> imout = canny.grad
 >>> imout.show() # Use this only if Python Image Library is installed
 
