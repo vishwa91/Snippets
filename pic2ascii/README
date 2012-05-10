@@ -1,3 +1,5 @@
+Author:		Vishwanath <vishwa.hyd@gmail.com>
+
 README:
 
 This is a freeware program created by Vishwanth.YOu are free to distribute this to your frieds.
@@ -15,8 +17,6 @@ Instructions:
 3.Drop your picture into this folder(i.e,Picturizer)
 4.Now ,open the info text file
 5.Write the name of the image ,along with the extension(like .jpg,.png etc.) as the first line of the file.
-6.Write the single character which will be typed onto the final image text file ,as the second line in the 
-  info file
 7.Now execute picturizer.exe
 8.search for the text file newly created in the same folder
 
@@ -28,6 +28,3 @@ Warning:
 1.Dont load very high resolution pictures.The program will take ages.
 2.Very complicated pictures will become crap
 3.Very small images will also become crap
-
-Bugs?:
-I am still a beginner.If there are any bugs,please report to vishwa.hyd@gmail.com
