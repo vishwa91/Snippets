@@ -1,0 +1,33 @@
+README:
+
+This is a freeware program created by Vishwanth.YOu are free to distribute this to your frieds.
+It would be grateful if you just carry on the name of the creator.
+
+
+Introduction:
+
+This program takes a picture and convert it into a text file,with typed pattern resembling the picture.
+It is a very useful tool for posting to show off!
+
+Instructions:
+1.Open the folder into which you have extracted.
+2.Now go to the folder Picturizer
+3.Drop your picture into this folder(i.e,Picturizer)
+4.Now ,open the info text file
+5.Write the name of the image ,along with the extension(like .jpg,.png etc.) as the first line of the file.
+6.Write the single character which will be typed onto the final image text file ,as the second line in the 
+  info file
+7.Now execute picturizer.exe
+8.search for the text file newly created in the same folder
+
+Example:
+A guitar image has been included in the folder.Just see the info file to see how it is written.Then,
+Execute the picturizer file.Voila!,you have a text guitar.
+
+Warning:
+1.Dont load very high resolution pictures.The program will take ages.
+2.Very complicated pictures will become crap
+3.Very small images will also become crap
+
+Bugs?:
+I am still a beginner.If there are any bugs,please report to vishwa.hyd@gmail.com
