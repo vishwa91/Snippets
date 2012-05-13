@@ -1,0 +1,39 @@
+log: 			A simple local logging command line program
+Author:		 	Vishwanath <vishwa.hyd@gmail.com>
+
+This program will help you to log your daily comments in an organised manner.
+It is very easy to use and efficiently keeps track of your logs.
+
+Installation:
+
+1. $ cd /path/to/source/code
+2. $ sudo make
+
+By default this will install the log program in /usr/bin
+To find out how to change this path, see Developer section
+
+Usage:
+
+Let us assume that you would like to create you logging file in /home/me and your
+logging file will be called logger
+
+1. $ cd /home/me
+2. $ log init logger
+
+If the present month is May, then a file called logger_May will be created.
+
+Now you can start logging. Let us log our first message, 'My very first log'
+
+$ log -m 'My very first log'
+
+To view you present month logs,
+
+$ log view
+
+Thats it! Happy logging!
+
+Developers:
+
+1. Can the Makefile be bettered?
+2. Freeing the memory hasn't been done
+3. This README can be made better
