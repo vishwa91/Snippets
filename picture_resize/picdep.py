@@ -27,6 +27,7 @@ __version__ = '0.1'
 
 from scipy import *
 from scipy.ndimage import *
+import Image
 import sys
 from time import sleep
 
@@ -116,7 +117,7 @@ while True:
         imname[t] = '^'
     except ValueError:
         i = imname.index('.')
-        im.save('arbit.jpg')
+        im.save('out.jpg')
         print imname
         print i,t
         t = 'Saved'
