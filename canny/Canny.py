@@ -89,7 +89,9 @@ class Canny:
         self.theta[x45,y45] = 45
         self.theta[x90,y90] = 90
         self.theta[x135,y135] = 135
-        x,y = self.theta.shape        
+        x,y = self.theta.shape
+        # Uncomment the following lines if you want to save a gradient map
+        '''
         temp = Image.new('RGB',(y,x),(255,255,255))
         for i in range(x):
             for j in range(y):
@@ -101,6 +103,7 @@ class Canny:
                     temp.putpixel((j,i),(255,255,0))
                 elif self.theta[i,j] == 45:
                     temp.putpixel((j,i),(0,255,0))
+        '''
         self.grad = grad.copy()
         x,y = self.grad.shape
 
@@ -234,6 +237,6 @@ class Canny:
         return -1
 # End of module Canny
 if __name__ == '__main__':
-    im = Canny('taj.jpg',1.3,40,15).grad
+    im = Canny('panigale.jpg',0.85,50,30).grad
     Image.fromarray(im).show()
 
