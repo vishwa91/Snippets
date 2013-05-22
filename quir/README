@@ -1,0 +1,8 @@
+QuIR: Quick Image Resize. This file was created to quickly resize images,
+since the author had to resize a lot of selected images. Very simple
+interface with minimal features.
+
+Framework adopted from Zetcode example on drag drop interface.
+
+Usage: 
+Set the height and width and drop the image into this area and voila! your image is resized.
