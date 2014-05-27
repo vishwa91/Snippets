@@ -42,6 +42,7 @@ class Canny:
     '''
     def __init__(self,imname,sigma,thresHigh = 50,thresLow = 10):
         self.imin = imread(imname,flatten = True)
+        imagename = imname[:-4]
 
         # Create the gauss kernel for blurring the input image
         # It will be convolved with the image
@@ -65,7 +66,7 @@ class Canny:
         # and vertical gradients
 
         grad = hypot(gradx,grady)
-        Image.fromarray(255-grad).convert('L').save('knrk1.bmp')
+        Image.fromarray(255-grad).convert('L').save(imagename+'CannyOutput.jpg')
         theta = arctan2(grady,gradx)
         theta = 180 + (180/pi)*theta
         # Only significant magnitudes are considered. All others are removed
